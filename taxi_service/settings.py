@@ -2,7 +2,6 @@ from pathlib import Path
 
 import django
 
-
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = "django-insecure-8ovil3xu6=eaoqd#" \
