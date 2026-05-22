@@ -15,5 +15,9 @@ def index(request):
         "num_cars": num_cars,
     }
 
-    rendered_template = render_to_string("taxi/index.html", context=context, request=request)
+    rendered_template = render_to_string(
+        "taxi/index.html",
+        context=context,
+        request=request,
+    )
     return HttpResponse(rendered_template)
