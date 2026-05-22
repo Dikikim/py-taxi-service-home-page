@@ -1,5 +1,7 @@
 from pathlib import Path
 
+import django
+
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
